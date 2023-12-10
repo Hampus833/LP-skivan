@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Chatime";
+    src: url("fonts/chatime/chatime.otf");
+}
+
+* {
+    margin: 0;
+    font-family: "Chatime", "Helvetica";
+}
+
+h2 {
+    font-size: 42px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 50vw);
+    grid-auto-rows: 100vh;
+}
+
+.line {
+    border-left: 2px solid #ffffff;
+    height: 300vh;
+    position: absolute;
+    left: 50%;
+    margin-left: 6px;
+    top: 0;
+}
+
+.picture_left,
+.picture_right,
+.text_left,
+.text_right {
+    margin: 200px;
+}
+
+.picture_left {
+    grid-column: 1;
+}
+
+.text_right {
+    grid-column: 2;
+}
+
+.timeline {
+    width: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+
+img {
+    width: 400px;
+}
