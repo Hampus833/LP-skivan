@@ -1,9 +1,13 @@
-import 'https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js';
-
-const scrollTracker = document.querySelector(".scroll-tracker");
-
-const timeline = new ScrollTimeline({
-    source: document.scrollingElement,
-    orientation: block,
-    scrollOffsets: [CSS.percent(0), CSS.percent(100)]
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+        } else {
+            entry.target.classList.remove("show");
+        }
+    })
 })
+
+const containerElements = document.querySelectorAll(".container");
+containerElements.forEach((el) => observer.observe(el));
