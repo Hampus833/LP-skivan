@@ -5,6 +5,37 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Chatime:wght@200;400;700&display=swap");
 
+@mixin faded($offset, $blur-radius, $spread-radius) {
+    &.faded-bottom:after {
+        box-shadow: inset 0 (-$offset) $blur-radius (
+            -$spread-radius
+        );
+}
+
+
+$faded-offset: 40px !default;
+$faded-blur-radius: 40px !default;
+$faded-spread-radius: 16px !default;
+
+$faded-narrow-offset: 20px !default;
+$faded-narrow-blur-radius: 20px !default;
+$faded-narrow-spread-radius: 10px !default;
+
+$faded-wide-offset: 80px !default;
+$faded-wide-blur-radius: 80px !default;
+$faded-wide-spread-radius: 28px !default;
+
+@include faded($faded-offset, $faded-blur-radius, $faded-spread-radius);
+
+&.faded-narrow {
+    @include faded($faded-narrow-offset, $faded-narrow-blur-radius, $faded-narrow-spread-radius);
+}
+
+&.faded-wide {
+    @include faded($faded-wide-offset, $faded-wide-blur-radius, $faded-wide-spread-radius);
+}
+}
+
 * {
     margin: 0;
     font-family: "Chatime", "Helvetica";
@@ -24,7 +55,7 @@ p {
     grid-auto-rows: 100vh;
 
     opacity: 0;
-    transition: all 2s;
+    transition: all 1.5s;
     transform: translateY(-50%);
     filter: blur(5px);
 }
@@ -37,7 +68,7 @@ p {
 
 .line {
     border-left: 2px solid #000000;
-    height: 300vh;
+    height: 600vh;
     position: absolute;
     left: 50%;
     margin-left: 6px;
@@ -48,7 +79,10 @@ p {
 
 #circle_1,
 #circle_2,
-#circle_3 {
+#circle_3,
+#circle_4,
+#circle_5,
+#circle_6 {
     width: 20px;
     height: 20px;
     background-color: #000000;
@@ -60,15 +94,27 @@ p {
 }
 
 #circle_1 {
-    top: 29%;
+    top: 15%;
 }
 
 #circle_2 {
-    top: 129%;
+    top: 115%;
 }
 
 #circle_3 {
-    top: 229%;
+    top: 215%;
+}
+
+#circle_4 {
+    top: 315%;
+}
+
+#circle_5 {
+    top: 415%;
+}
+
+#circle_6 {
+    top: 515%;
 }
 
 .picture_left,
@@ -81,7 +127,7 @@ p {
 .picture_right,
 .text_left,
 .text_right {
-    margin: 200px;
+    margin: 100px;
 
 
 }
@@ -103,7 +149,7 @@ p {
 
 img {
     justify-content: center;
-    width: 90%;
+    width: 80%;
 }
 
 /* 

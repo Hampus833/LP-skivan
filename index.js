@@ -5,6 +5,7 @@ let backgroundImages = [];
 
 for (let i = 1870; i <= 2020; i += 10) {
     if (i >= 1920 && i <= 2020 || i === 1870) {
+        if (i === 1950 || i === 1920) { continue; }
         backgroundImages.push(`url(media/bakgrundsbilder/${i}bg.jpeg)`);
         console.log(backgroundImages);
     }
