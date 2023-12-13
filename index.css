@@ -3,6 +3,8 @@
     src: url("fonts/chatime/chatime.otf");
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Chatime:wght@200;400;700&display=swap");
+
 * {
     margin: 0;
     font-family: "Chatime", "Helvetica";
@@ -20,15 +22,59 @@ p {
     display: grid;
     grid-template-columns: repeat(2, 50vw);
     grid-auto-rows: 100vh;
+
+    opacity: 0;
+    transition: all 2s;
+    transform: translateY(-50%);
+    filter: blur(5px);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
 }
 
 .line {
-    border-left: 2px solid #ffffff;
+    border-left: 2px solid #000000;
     height: 300vh;
     position: absolute;
     left: 50%;
     margin-left: 6px;
     top: 0;
+
+    z-index: 999;
+}
+
+#circle_1,
+#circle_2,
+#circle_3 {
+    width: 20px;
+    height: 20px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    z-index: 1;
+}
+
+#circle_1 {
+    top: 29%;
+}
+
+#circle_2 {
+    top: 129%;
+}
+
+#circle_3 {
+    top: 229%;
+}
+
+.picture_left,
+.picture_right {
+    display: flex;
+    align-items: center;
 }
 
 .picture_left,
@@ -36,6 +82,8 @@ p {
 .text_left,
 .text_right {
     margin: 200px;
+
+
 }
 
 .picture_left {
@@ -54,5 +102,15 @@ p {
 
 
 img {
-    width: 400px;
+    justify-content: center;
+    width: 90%;
 }
+
+/* 
+.scroll-tracker {
+    position: fixed;
+    inset: 0 0 auto;
+    height: 0.5rem;
+    background-color: #000000;
+    transform-origin: left;
+} */

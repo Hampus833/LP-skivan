@@ -1,6 +1,6 @@
 "use strict";
 
-let container = document.querySelectorAll(".container");
+let container = document.querySelectorAll(".background");
 let backgroundImages = [];
 
 for (let i = 1870; i <= 2020; i += 10) {
