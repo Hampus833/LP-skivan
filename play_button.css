@@ -1,0 +1,147 @@
+.play {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-width: 22px 0 22px 35px;
+    border-color: transparent transparent transparent #202020;
+    
+    /*position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 100px;
+    bottom: 0;
+    background: transparent;*/
+
+    cursor: pointer;
+    transition: 100ms all ease;
+    background-color: transparent;
+}
+
+.paused {
+    border-style: double;
+    border-width: 0 0 0 32px;
+
+    border-color: #202020;
+
+    /*position: absolute;
+    top: 20px;
+    left: 70px;
+    right: 200px;
+    bottom: 0;
+    background: transparent;*/
+
+    height: 45.2px;
+    width: 42.4px;
+
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.play:hover {
+    border-color: transparent transparent transparent #404040;
+}
+
+.paused:hover {
+    border-color: #404040;
+}
+
+#btn-1 {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    bottom: 0;
+    background: transparent;
+    display: flex;
+    gap: 10px;
+}
+
+#btn-2 {
+    position: absolute;
+    top: 102vh;
+    left: 40px;
+    bottom: 0;
+    background: transparent;
+    display: flex;
+    gap: 10px;
+}
+
+#btn-3 {
+    position: absolute;
+    top: 202vh;
+    right: 40px;
+    bottom: 0;
+    background: transparent;
+    display: flex;
+    gap: 10px;
+}
+
+#btn-4 {
+    position: absolute;
+    top: 302vh;
+    left: 40px;
+    bottom: 0;
+    background: transparent;
+    display: flex;
+    gap: 10px;
+}
+
+#btn-5 {
+    position: absolute;
+    top: 402vh;
+    right: 40px;
+    bottom: 0;
+    background: transparent;
+    display: flex;
+    gap: 10px;
+}
+
+#btn-6 {
+    position: absolute;
+    top: 502vh;
+    left: 40px;
+    bottom: 0;
+    background: transparent;
+    display: flex;
+    gap: 10px;
+}
+
+#btn-7 {
+    position: absolute;
+    top: 602vh;
+    right: 40px;
+    bottom: 0;
+    background: transparent;
+    display: flex;
+    gap: 10px;
+}
+
+#btn-8 {
+    position: absolute;
+    top: 702vh;
+    left: 40px;
+    bottom: 0;
+    background: transparent;
+    display: flex;
+    gap: 10px;
+}
+
+#btn-9 {
+    position: absolute;
+    top: 802vh;
+    right: 40px;
+    bottom: 0;
+    background: transparent;
+    display: flex;
+    gap: 10px;
+}
+
+#btn-10 {
+    position: absolute;
+    top: 902vh;
+    left: 40px;
+    bottom: 0;
+    background: transparent;
+    display: flex;
+    gap: 10px;
+}
