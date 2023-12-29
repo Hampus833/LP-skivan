@@ -47,17 +47,25 @@ h2 {
 
 p {
     font-size: 18px;
+    font-family: "Helvetica";
 }
 
 .container {
     display: grid;
     grid-template-columns: repeat(2, 50vw);
     grid-auto-rows: 100vh;
+    scroll-snap-align: start;
 
     opacity: 0;
     transition: all 1.5s;
     transform: translateY(-50%);
     filter: blur(5px);
+}
+
+.background {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    overflow: hidden;
 }
 
 .show {
@@ -67,7 +75,7 @@ p {
 }
 
 .line {
-    border-left: 2px solid #000000;
+    border-left: 2px solid black;
     height: 600vh;
     position: absolute;
     left: 50%;
@@ -85,7 +93,7 @@ p {
 #circle_6 {
     width: 20px;
     height: 20px;
-    background-color: #000000;
+    background-color: black;
     border-radius: 50%;
     position: absolute;
     left: 50%;
@@ -129,7 +137,6 @@ p {
 .text_right {
     margin: 100px;
 
-
 }
 
 .picture_left {
@@ -146,7 +153,6 @@ p {
     background-repeat: no-repeat;
 }
 
-
 img {
     justify-content: center;
     width: 80%;
@@ -159,4 +165,13 @@ img {
     height: 0.5rem;
     background-color: #000000;
     transform-origin: left;
+} */
+
+/* .cursor {
+    cursor: url("media/vinyl_cursor.png"), auto;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
 } */

@@ -13,5 +13,5 @@ for (let i = 1870; i <= 2020; i += 10) {
 
 for (let i = 0; i < container.length; i++) {
     container[i].style.backgroundImage = backgroundImages[i];
-    container[i].style.backgroundSize = "cover";
+    container[i].style.backgroundSize = "100% 100%";
 }
