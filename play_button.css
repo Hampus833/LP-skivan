@@ -38,6 +38,14 @@
     background-color: transparent;
 }
 
+.play:hover {
+    border-color: transparent transparent transparent #404040;
+}
+
+.paused:hover {
+    border-color: #404040;
+}
+
 #btn-1 {
     position: absolute;
     top: 20px;
