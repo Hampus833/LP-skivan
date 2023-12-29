@@ -80,7 +80,7 @@ p {
 
 .line {
     border-left: 2px solid black;
-    height: 600vh;
+    height: 1000vh;
     position: absolute;
     left: 50%;
     margin-left: 6px;
