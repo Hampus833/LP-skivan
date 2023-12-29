@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url(./fonts/playfair-display/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Bodoni Regular";
+    src: url(./fonts/bodoni-moda/BodoniModa-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Crimson";
+    src: url(./fonts/crimson/CrimsonText-Regular.ttf);
+}
+
+#video-audio-container {
+    position: relative;
+}
+
+#video-title {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Playfair Display";
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+#vinyl-video {
+    height: 870px;
+}
+
+#first-section-header {
+    font-size: 70px;
+    font-family: "Crimson";
+    
+}
+
