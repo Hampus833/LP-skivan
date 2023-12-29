@@ -156,6 +156,11 @@ p {
 img {
     justify-content: center;
     width: 80%;
+    transition: transform .5s;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
 
 /* 
