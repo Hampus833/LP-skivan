@@ -51,6 +51,7 @@ h2 {
 p {
     font-size: 18px;
     font-family: "Helvetica";
+    margin-top: 30px;
 }
 
 .container {
@@ -149,6 +150,7 @@ p {
 
 .text_right {
     grid-column: 2;
+    text-align: end;
 }
 
 .timeline {
