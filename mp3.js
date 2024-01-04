@@ -1,4 +1,4 @@
-
+document.addEventListener('DOMContentLoaded', function () {
 
 // Array av ljudkällor (ersätt dessa med dina egna filvägar)
 const ljudKallor = [
@@ -34,4 +34,5 @@ window.addEventListener('scroll', function () {
     if (rullningsPosition >= utlosningsPunkt) {
         bytLjud();
     }
-});
+    })
+})
