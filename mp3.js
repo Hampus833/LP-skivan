@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Array av ljudkällor (ersätt dessa med dina egna filvägar)
 const ljudKallor = [
-    'LP-songs/1800.mp3',
-    'LP-songs/30s.mp3',
-    'LP-songs/80s.mp3',
-    'LP-songs/90s.mp3',
+        'media/mp3files/1800Chopin-Nocturne op.9 No.2.mp3',
+        'media/mp3files/1930Ella Fitzgerald-Ill Be Seeing You.mp3',
+        'media/mp3files/Nat King Cole-L-O-V-E.mp3',
+        'media/mp3files/The Beatles-Come Together.mp3',
     // Lägg till fler vid behov
 ];
 
