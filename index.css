@@ -3,6 +3,11 @@
     src: url("fonts/chatime/chatime.otf");
 }
 
+@font-face {
+    font-family: "Josefin";
+    src: url("fonts/josefin_sans/JosefinSans-VariableFont_wght.ttf");
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Chatime:wght@200;400;700&display=swap");
 
 @mixin faded($offset, $blur-radius, $spread-radius) {
@@ -40,9 +45,18 @@ $faded-wide-spread-radius: 28px !default;
     margin: 0;
     font-family: "Chatime", "Helvetica";
 }
+
+video {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    grid-column: 1 / 3;
+    scroll-snap-align: start;
+}
+
 html {
     scroll-snap-type: y mandatory;
-}  
+}
 
 h2 {
     font-size: 42px;
@@ -50,7 +64,7 @@ h2 {
 
 p {
     font-size: 18px;
-    font-family: "Helvetica";
+    font-family: "Josefin";
     margin-top: 30px;
 }
 
@@ -68,9 +82,17 @@ p {
 .background {
     overflow-y: scroll;
     overflow: hidden;
+    scroll-snap-align: start;
+    height: 100vh;
+}
+
+.background_artist {
+    overflow-y: scroll;
+    overflow: hidden;
 
     height: 100vh;
     scroll-snap-align: start;
+    background-color: #75aee4;
 }
 
 .show {
@@ -80,8 +102,9 @@ p {
 }
 
 .line {
+    margin-top: 100vh;
     border-left: 2px solid black;
-    height: 1000vh;
+    height: 2000vh;
     position: absolute;
     left: 50%;
     margin-left: 6px;
@@ -107,27 +130,27 @@ p {
 }
 
 #circle_1 {
-    top: 15%;
-}
-
-#circle_2 {
     top: 115%;
 }
 
-#circle_3 {
+#circle_2 {
     top: 215%;
 }
 
-#circle_4 {
+#circle_3 {
     top: 315%;
 }
 
-#circle_5 {
+#circle_4 {
     top: 415%;
 }
 
-#circle_6 {
+#circle_5 {
     top: 515%;
+}
+
+#circle_6 {
+    top: 615%;
 }
 
 .picture_left,
