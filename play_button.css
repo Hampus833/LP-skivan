@@ -50,7 +50,7 @@
 
 #btn-1 {
     position: absolute;
-    top: 20px;
+    top: 102vh;
     right: 40px;
     bottom: 0;
     background: transparent;
@@ -60,7 +60,7 @@
 
 #btn-2 {
     position: absolute;
-    top: 102vh;
+    top: 302vh;
     left: 40px;
     bottom: 0;
     background: transparent;
@@ -70,7 +70,7 @@
 
 #btn-3 {
     position: absolute;
-    top: 202vh;
+    top: 502vh;
     right: 40px;
     bottom: 0;
     background: transparent;
@@ -80,7 +80,7 @@
 
 #btn-4 {
     position: absolute;
-    top: 302vh;
+    top: 702vh;
     left: 40px;
     bottom: 0;
     background: transparent;
@@ -90,7 +90,7 @@
 
 #btn-5 {
     position: absolute;
-    top: 402vh;
+    top: 902vh;
     right: 40px;
     bottom: 0;
     background: transparent;
@@ -100,7 +100,7 @@
 
 #btn-6 {
     position: absolute;
-    top: 502vh;
+    top: 1102vh;
     left: 40px;
     bottom: 0;
     background: transparent;
@@ -110,7 +110,7 @@
 
 #btn-7 {
     position: absolute;
-    top: 602vh;
+    top: 1302vh;
     right: 40px;
     bottom: 0;
     background: transparent;
@@ -120,7 +120,7 @@
 
 #btn-8 {
     position: absolute;
-    top: 702vh;
+    top: 1502vh;
     left: 40px;
     bottom: 0;
     background: transparent;
@@ -130,7 +130,7 @@
 
 #btn-9 {
     position: absolute;
-    top: 802vh;
+    top: 1702vh;
     right: 40px;
     bottom: 0;
     background: transparent;
@@ -140,7 +140,7 @@
 
 #btn-10 {
     position: absolute;
-    top: 902vh;
+    top: 1902vh;
     left: 40px;
     bottom: 0;
     background: transparent;
