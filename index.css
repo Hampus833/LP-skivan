@@ -118,7 +118,21 @@ p {
 #circle_3,
 #circle_4,
 #circle_5,
-#circle_6 {
+#circle_6,
+#circle_7,
+#circle_8,
+#circle_9,
+#circle_10,
+#circle_1_artist,
+#circle_2_artist,
+#circle_3_artist,
+#circle_4_artist,
+#circle_5_artist,
+#circle_6_artist,
+#circle_7_artist,
+#circle_8_artist,
+#circle_9_artist,
+#circle_10_artist {
     width: 20px;
     height: 20px;
     background-color: black;
@@ -133,25 +147,82 @@ p {
     top: 115%;
 }
 
-#circle_2 {
+#circle_1_artist {
     top: 215%;
 }
 
-#circle_3 {
+#circle_2 {
     top: 315%;
 }
 
-#circle_4 {
+#circle_2_artist {
     top: 415%;
 }
 
-#circle_5 {
+#circle_3 {
     top: 515%;
 }
 
-#circle_6 {
+#circle_3_artist {
     top: 615%;
 }
+
+#circle_4 {
+    top: 715%;
+}
+
+#circle_4_artist {
+    top: 815%;
+}
+
+#circle_5 {
+    top: 915%;
+}
+
+#circle_5_artist {
+    top: 1015%;
+}
+
+#circle_6 {
+    top: 1115%;
+}
+
+#circle_6_artist {
+    top: 1215%;
+}
+
+#circle_7 {
+    top: 1315%;
+}
+
+#circle_7_artist {
+    top: 1415%;
+}
+
+#circle_8 {
+    top: 1515%;
+}
+
+#circle_8_artist {
+    top: 1615%;
+}
+
+#circle_9 {
+    top: 1715%;
+}
+
+#circle_9_artist {
+    top: 1815%;
+}
+
+#circle_10 {
+    top: 1915%;
+}
+
+#circle_10_artist {
+    top: 2015%;
+}
+
 
 .picture_left,
 .picture_right {
